@@ -1,7 +1,7 @@
 My first attempt at adding new stuff to Outer Wilds, would say it's pretty good for a start
 I'll add stuff later when i have inspiration
 
-Contact: FunkyShoeMan#0001
+Contact: FunkyShoeMan0001
 
 Current Roadmap
 - ~~Insult CrypticBird~~
