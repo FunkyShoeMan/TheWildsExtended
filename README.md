@@ -6,5 +6,5 @@ Contact: FunkyShoeMan#0001
 Current Roadmap
 - Learn c# to make planet with decaying orbit
 - ???
-- Insult ~~CrypticBird~~
+- ~~Insult CrypticBird~~
 - Model planets in blender for acutal quaility?!?!?
