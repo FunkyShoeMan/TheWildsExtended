@@ -7,5 +7,5 @@ Current Roadmap
 - ~~Insult CrypticBird~~
 - Add ship logs and stuff to discover
 - Learn c# to make planet with decaying orbit
-- Model planets in blender for acutal quaility?!?!?
+- ~~Model planets in blender for acutal quaility?!?!?~~ Thank you TextureTurtle
 - Make Lorea affect Timber Hearth upon impact
