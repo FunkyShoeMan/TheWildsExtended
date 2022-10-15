@@ -6,7 +6,7 @@
 			"fluidType": "cloud",
 			"innerCloudRadius": 335.0,
 			"outerCloudRadius": 385.0,
-			"texturePath": "planets/assets/tri clouds.png",
+			"texturePath": "FunkyShoeMan.TheWildsExtended/assets/tri clouds.png",
 			"tint": {
 				"r": 142,
 				"g": 154,
@@ -30,10 +30,10 @@
 		"surfaceSize": 240.0
 	},
 	"HeightMap": {
-		"heightMap": "assets/tri height.png",
+		"heightMap": "FunkyShoeMan.TheWildsExtended/assets/tri height.png",
 		"maxHeight": 265.0,
 		"minHeight": 215.0,
-		"textureMap": "assets/tri text.png"
+		"textureMap": "FunkyShoeMan.TheWildsExtended/assets/tri text.png"
 	},
 	"Orbit": {
 		"primaryBody": "Dioxide Twins",
