@@ -15,9 +15,9 @@
         "argumentOfPeriapsis": 35
     },
     "HeightMap": {
-		"heightMap": "FunkyShoeMan.TheWildsExtended/assets/exp height.png",
+		"heightMap": "planets/assets/exp height.png",
 		"maxHeight": 142.5,
 		"minHeight": 127.5,
-		"textureMap": "FunkyShoeMan.TheWildsExtended/assets/exp text.png"
+		"textureMap": "planets/assets/exp text.png"
     }
 }
