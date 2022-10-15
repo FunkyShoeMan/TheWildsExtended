@@ -30,10 +30,10 @@
 		"surfaceSize": 240.0
 	},
 	"HeightMap": {
-		"heightMap": "planets/assets/tri height.png",
+		"heightMap": "assets/tri height.png",
 		"maxHeight": 265.0,
 		"minHeight": 215.0,
-		"textureMap": "planets/assets/tri text.png"
+		"textureMap": "assets/tri text.png"
 	},
 	"Orbit": {
 		"primaryBody": "Dioxide Twins",
