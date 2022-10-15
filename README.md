@@ -7,3 +7,4 @@ Current Roadmap
 - Learn c# to make planet with decaying orbit
 - ???
 - Insult Cryptic Bird
+- Model planets in blender for acutal quaility?!?!?
