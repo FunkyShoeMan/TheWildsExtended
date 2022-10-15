@@ -1,0 +1,43 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Satorena",
+    "Orbit": {
+        "primaryBody": "Sun",
+		"semiMajorAxis": 32500,
+        "axialTilt": 25
+    },
+	"Base": {
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 35.0,
+		"surfaceSize": 95.0
+	},
+    "Atmosphere": {
+		"clouds": {
+			"fluidType": "cloud",
+			"innerCloudRadius": 0.5,
+			"outerCloudRadius": 975.0,
+			"texturePath": "planets/assets/sat clouds.png",
+			"tint": {
+				"r": 142,
+				"g": 154,
+				"b": 221
+			}
+		},
+		"fogDensity": 0.6,
+		"fogSize": 975.0,
+		"fogTint": {
+			"r": 97,
+			"g": 76,
+			"b": 205
+		}
+	},
+    "Rings": [
+        {
+            "fluidType": "plasma",
+            "innerRadius": 1225,
+            "outerRadius": 1875,
+            "texture": "planets/assets/sat rings.png"
+        }
+    ]
+}

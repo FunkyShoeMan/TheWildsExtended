@@ -1,0 +1,21 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Blackhole Gate",
+    "Orbit": {
+		"primaryBody": "Timber Hearth",
+		"semiMajorAxis": 625,
+        "trueAnomaly": 180
+    },
+    "Base": {
+        "hasMapMarker": true
+    },
+    "Props": {
+        "singularities": [
+            {"type": "blackHole",
+            "pairedSingularity": "grinkle",
+            "uniqueID": "frumple",
+            "size": 25
+            }
+        ]
+    }
+}

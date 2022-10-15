@@ -1,0 +1,38 @@
+{
+    "$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Icarus",
+    "Orbit": {
+    "primaryBody": "Sun",
+    "semiMajorAxis": 2650,
+    "trueAnomaly": 90
+    },
+    "Base": {
+        "groundSize": 0,
+        "surfaceSize": 165,
+        "surfaceGravity": 25,
+        "hasMapMarker": true
+    },
+    "HeightMap": {
+        "minHeight": 150,
+        "maxHeight": 170,
+        "heightMap": "planets/assets/ica height.png",
+        "textureMap": "planets/assets/ica text.png"
+    },
+    "Lava": {
+        "size": 155
+        },
+    "Props": {
+        "singularities": [
+            {"type": "whiteHole",
+            "pairedSingularity": "frumple",
+            "uniqueID": "grinkle",
+            "size": 7.5,
+            "position": { 
+            "x": -7,
+            "y": 165,
+            "z": -45
+            }
+            }
+        ]
+    }
+}

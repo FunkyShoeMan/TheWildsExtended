@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Ferrum",
+	"Base": {
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 6.0,
+		"surfaceSize": 95.0
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/fer height.png",
+		"maxHeight": 105.0,
+		"minHeight": 85.0,
+		"textureMap": "planets/assets/fer text.png"
+	},
+	"Lava": {
+		"size": 1.0,
+		"curve": [
+			{
+				"value": 80.0
+			},
+			{
+				"time": 5.0,
+				"value": 110.0
+			}
+		]
+	},
+	"Orbit": {
+		"primaryBody": "Dioxide Twins",
+		"isMoon": true,
+		"isTidallyLocked": true,
+		"semiMajorAxis": 525.0
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {}
+}
