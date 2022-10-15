@@ -3,7 +3,7 @@
   "author": "FunkyShoeMan#0001, #nh-addon-discussion (lots of help) (Xen-12, Idiot, Trifid)",
   "name": "The Wilds: Extended",
   "uniqueName": "FunkyShoeMan.TheWildsExtended",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "owmlVersion": "2.7.2",
   "dependencies": [ "xen.NewHorizons" ]
 }
