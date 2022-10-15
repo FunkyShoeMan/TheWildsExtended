@@ -17,7 +17,7 @@
 			"fluidType": "cloud",
 			"innerCloudRadius": 0.5,
 			"outerCloudRadius": 975.0,
-			"texturePath": "planets/assets/sat clouds.png",
+			"texturePath": "FunkyShoeMan.TheWildsExtended/assets/sat clouds.png",
 			"tint": {
 				"r": 142,
 				"g": 154,
@@ -37,7 +37,7 @@
             "fluidType": "plasma",
             "innerRadius": 1225,
             "outerRadius": 1875,
-            "texture": "planets/assets/sat rings.png"
+            "texture": "FunkyShoeMan.TheWildsExtended/assets/sat rings.png"
         }
     ]
 }
