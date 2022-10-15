@@ -8,10 +8,10 @@
 		"surfaceSize": 95.0
 	},
 	"HeightMap": {
-		"heightMap": "FunkyShoeMan.TheWildsExtended/assets/fer height.png",
+		"heightMap": "planets/assets/fer height.png",
 		"maxHeight": 105.0,
 		"minHeight": 85.0,
-		"textureMap": "FunkyShoeMan.TheWildsExtended/assets/fer text.png"
+		"textureMap": "planets/assets/fer text.png"
 	},
 	"Lava": {
 		"size": 1.0,
