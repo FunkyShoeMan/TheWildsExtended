@@ -1,9 +1,9 @@
 {
   "filename": "NewHorizonsConfig.dll",
-  "author": "[your name]",
-  "name": "[your readable mod name]",
-  "uniqueName": "[your name].[your unique mod ID]",
-  "version": "0.0.0",
-  "owmlVersion": "2.1.0",
+  "author": "FunkyShoeMan#0001, #nh-addon-discussion (lots of help) (Xen-12 / xen#5498, Idiot / Proffesional Idiot#9651, Trifid / TerrificTrifid#8743)",
+  "name": "The Wilds: Extended",
+  "uniqueName": "FunkyShoeMan.TheWildsExtended",
+  "version": "0.1.0",
+  "owmlVersion": "2.7.2",
   "dependencies": [ "xen.NewHorizons" ]
 }
