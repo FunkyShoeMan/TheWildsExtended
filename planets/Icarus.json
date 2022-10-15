@@ -15,8 +15,8 @@
     "HeightMap": {
         "minHeight": 150,
         "maxHeight": 170,
-        "heightMap": "FunkyShoeMan.TheWildsExtended/assets/ica height.png",
-        "textureMap": "FunkyShoeMan.TheWildsExtended/assets/ica text.png"
+        "heightMap": "planets/assets/ica height.png",
+        "textureMap": "planets/assets/ica text.png"
     },
     "Lava": {
         "size": 155
