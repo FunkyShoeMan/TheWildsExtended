@@ -5,7 +5,7 @@ Contact: `FunkyShoeMan#0001`
 
 Current Roadmap
 - ~~Insult CrypticBird~~
-- Add ship logs and stuff to discover
+- Learn XML to add a **massive** amount of content
 - Learn c# to make planet with decaying orbit
 - ~~Model planets in blender for acutal quaility?!?!?~~ Thank you TextureTurtle
 - Make Lorea affect Timber Hearth upon impact
