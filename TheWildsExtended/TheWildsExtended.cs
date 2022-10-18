@@ -4,38 +4,38 @@ using UnityEngine;
 
 namespace TheWildsExtended
 {
-    public class TheWildsExtended : ModBehaviour
-    {
-        private void Awake()
-        {
+	public class TheWildsExtended : ModBehaviour
+	{
+		private void Awake()
+		{
 
-        }
-
-        private void Start()
-        {
-            var newHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
-            newHorizons.LoadConfigs(this);
-
-            newHorizons.GetStarSystemLoadedEvent().AddListener((name) =>
-            {
-                if (name != "SolarSystem") return;
-                var planet = newHorizons.GetPlanet("Icarus");
-                planet.AddComponent<InfantShover>();
-            });
-        }
-    }
-    public class InfantShover : MonoBehaviour
-    {
-        public OWRigidbody owrb;
-
-        public void Start()
-        {
-            owrb = this.GetAttachedOWRigidbody();
 		}
-        
-        public void FixedUpdate()
-        {
-            owrb.AddAcceleration(-owrb.GetVelocity().normalized * 0.5f);
-        }
-    }
+
+		private void Start()
+		{
+			var newHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
+			newHorizons.LoadConfigs(this);
+
+			newHorizons.GetStarSystemLoadedEvent().AddListener((name) =>
+			{
+				if (name != "SolarSystem") return;
+				var planet = newHorizons.GetPlanet("Icarus");
+				planet.AddComponent<InfantShover>();
+			});
+		}
+	}
+	public class InfantShover : MonoBehaviour
+	{
+		public OWRigidbody owrb;
+
+		public void Start()
+		{
+			owrb = this.GetAttachedOWRigidbody();
+		}
+
+		public void FixedUpdate()
+		{
+			owrb.AddAcceleration(-owrb.GetVelocity().normalized * 0.5f);
+		}
+	}
 }
