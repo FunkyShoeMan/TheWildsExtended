@@ -28,6 +28,8 @@ namespace TheWildsExtended
 	{
 		public OWRigidbody owrb;
 
+		public float drag = 50f;
+
 		public void Start()
 		{
 			owrb = this.GetAttachedOWRigidbody();
@@ -35,7 +37,7 @@ namespace TheWildsExtended
 
 		public void FixedUpdate()
 		{
-			owrb.AddAcceleration(-owrb.GetVelocity().normalized * 0.5f);
+			owrb.AddAcceleration(-owrb.GetVelocity().normalized * drag * Time.fixedDeltaTime);
 		}
 	}
 }
