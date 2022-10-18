@@ -15,7 +15,7 @@
 	},
 	"Props": {
 		"details": [
-			{ "path": "Anglerfish_Body/Beast_Anglerfish", "keepLoaded": true }
+			{ "path": "Anglerfish_Body/Beast_Anglerfish" }
 		]
 	}
 }
