@@ -37,7 +37,7 @@ namespace TheWildsExtended
 
 		public void FixedUpdate()
 		{
-			owrb.AddAcceleration(-owrb.GetVelocity().normalized * drag * Time.fixedDeltaTime);
+			owrb.AddAcceleration(-owrb.GetVelocity().normalized * drag);
 		}
 	}
 }
