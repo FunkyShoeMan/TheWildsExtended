@@ -1,9 +1,10 @@
 {
-  "filename": "NewHorizonsConfig.dll",
+  "$schema": "https://raw.githubusercontent.com/amazingalek/owml/master/schemas/manifest_schema.json",
+  "filename": "TheWildsExtended.dll",
   "author": "FunkyShoeMan#0001, #nh-addon-discussion (lots of help) (Xen-12, Idiot, Trifid)",
   "name": "The Wilds: Extended",
   "uniqueName": "FunkyShoeMan.TheWildsExtended",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "owmlVersion": "2.7.2",
   "dependencies": [ "xen.NewHorizons" ]
 }

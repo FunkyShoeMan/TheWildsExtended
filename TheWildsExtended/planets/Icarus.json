@@ -1,0 +1,42 @@
+{
+	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Icarus",
+	"Orbit": {
+		"primaryBody": "Sun",
+		"semiMajorAxis": 2650,
+		"trueAnomaly": 90,
+		"trackingOrbitLine": true
+	},
+	"Base": {
+		"groundSize": 0,
+		"surfaceSize": 165,
+		"surfaceGravity": 25,
+		"hasMapMarker": true
+	},
+	"Lava": {
+		"size": 170
+	},
+	"Props": {
+		"singularities": [
+			{
+				"type": "whiteHole",
+				"pairedSingularity": "frumple",
+				"uniqueID": "grinkle",
+				"size": 7.5,
+				"position": {
+					"x": 0,
+					"y": 200,
+					"z": 0
+				}
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/assets/Homeless/slave.fortnite",
+				"path": "Assets/Homeless/Prefab/Icarus.prefab",
+				"scale": 1.05,
+				"keepLoaded": true
+			}
+		]
+	}
+}

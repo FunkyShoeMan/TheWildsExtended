@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Ferrum",
+	"Base": {
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 6.0,
+		"surfaceSize": 95.0
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/assets/Homeless/slave.fortnite",
+				"path": "Assets/Homeless/Prefab/Ferrum.prefab",
+				"scale": 1.2,
+				"keepLoaded": true
+			}
+		]
+	},
+	"Lava": {
+		"size": 1.0,
+		"curve": [
+			{
+				"value": 85.0
+			},
+			{
+				"time": 5.0,
+				"value": 120.0
+			}
+		]
+	},
+	"Orbit": {
+		"primaryBody": "Dioxide Twins",
+		"isMoon": true,
+		"isTidallyLocked": true,
+		"semiMajorAxis": 525.0
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {}
+}
